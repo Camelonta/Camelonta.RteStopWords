@@ -20,16 +20,4 @@ bld/
 .vs/
 packages/
 
-[Aa]pp_Data/cache/
-[Aa]pp_Data/Logs/
-[Aa]pp_Data/Models/
 [Nn]]uGetBackup/
-[Aa]pp_Data/TEMP/
-[Aa]pp_Data/umbracoc.config
-[Aa]pp_Browsers/
-[Uu]mbraco
-[Uu]mbraco_client
-[Aa]pp_Browsers/
-
-/assets
-/packages
