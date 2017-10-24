@@ -1,0 +1,13 @@
+﻿<tinymceConfig>
+  <commands>
+    <command>
+      <umbracoAlias>stopwords</umbracoAlias>
+      <icon>images/editor/code.gif</icon>
+      <tinyMceCommand value="" userInterface="false" frontendCommand="stopwords">stopwords</tinyMceCommand>
+      <priority>75</priority>
+    </command>
+  </commands>
+  <plugins>
+    <plugin loadOnFrontend="true">stopwords</plugin>
+  </plugins>
+</tinymceConfig>
