@@ -11,7 +11,7 @@
     <copyright>Copyright Camelonta AB 2017</copyright>
   </metadata>
   <files>
-    <file src="Camelonta.RteStopWords\Config\*.*" target="content\Config" />
+    <file src="Camelonta.RteStopWords\Config\tinyMceConfig.config.transform" target="content\Config" />
     <file src="Camelonta.RteStopWords\umbraco\lib\tinymce\plugins\*.*" target="content\umbraco\lib\tinymce\plugins" />
   </files>
 </package>
