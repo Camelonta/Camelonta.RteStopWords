@@ -48,7 +48,9 @@
     <Content Include="umbraco\lib\tinymce\plugins\stopwords\plugin.min.js" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Config\tinyMceConfig.config.transform" />
+    <None Include="Config\tinyMceConfig.config.transform">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
