@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>1.6</version>
+    <version>1.0</version>
     <authors>Camelonta AB</authors>
     <owners>Camelonta AB</owners>
-    <id>CamelontaSocialPilot</id>
-    <title>Camelonta Umbraco SocialPilot</title>
+    <id>CamelontaRteStopWords</id>
+    <title>Camelonta Umbraco Rte Stopwords</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>SocialPilot for Umbraco</description>
+    <description>Rte stopwords for Umbraco</description>
     <copyright>Copyright Camelonta AB 2017</copyright>
   </metadata>
   <files>
-    <file src="Camelonta.SocialPilot\bin\Camelonta.SocialPilot.dll" target="lib" />
-    <file src="Camelonta.SocialPilot\App_Plugins\Camelonta.SocialPilot\*.*" target="content\App_Plugins\Camelonta.SocialPilot" />
-    <file src="Camelonta.SocialPilot\App_Plugins\Camelonta.SocialPilot\lang\*.*" target="content\App_Plugins\Camelonta.SocialPilot\lang" />
+    <file src="Camelonta.RteStopWords\Config\*.*" target="content\Config" />
+    <file src="Camelonta.RteStopWords\umbraco\lib\tinymce\plugins\*.*" target="content\umbraco\lib\tinymce\plugins" />
   </files>
 </package>
